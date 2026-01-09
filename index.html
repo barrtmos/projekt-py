@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Авторский курс по Python</title>
+  <meta name="description" content="Авторский курс по Python: практика, проекты, поддержка и результат." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header class="header" id="top">
+    <div class="container header__row">
+      <a class="logo" href="#top" aria-label="На главную">
+        <span class="logo__mark">Mi</span>
+        <span class="logo__text">Python Course</span>
+      </a>
+
+      <nav class="nav" aria-label="Основное меню">
+        <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+
+        <ul class="menu" id="menu">
+          <li><a class="menu__link" href="#program">Программа</a></li>
+          <li><a class="menu__link" href="#format">Формат</a></li>
+          <li><a class="menu__link" href="#reviews">Отзывы</a></li>
+          <li><a class="menu__link" href="#pricing">Цена</a></li>
+          <li><a class="menu__link menu__link--cta" href="#signup">Записаться</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Первый экран">
+      <div class="hero__bg" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <p class="hero__tag">Практика • проекты • код-ревью</p>
+
+        <h1 class="hero__title">
+          Авторский курс по Python: с нуля до первых проектов за 6 недель
+        </h1>
+
+        <p class="hero__subtitle">
+          Без воды. Пишешь код с первого занятия, собираешь портфолио и понимаешь, что делаешь.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#signup">Записаться</a>
+          <a class="btn btn--ghost" href="#program">Смотреть программу</a>
+          <a class="btn btn--ghost" href="#format">Узнать формат</a>
+        </div>
+
+        <div class="hero__stats" aria-label="Ключевые факты">
+          <div class="stat">
+            <div class="stat__num">6</div>
+            <div class="stat__text">недель</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">12+</div>
+            <div class="stat__text">практик</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">3</div>
+            <div class="stat__text">проекта</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="program">
+      <div class="container">
+        <h2 class="section__title">Программа</h2>
+        <p class="section__lead">Соберём фундамент и закрепим в проектах.</p>
+        <div class="grid grid--3">
+          <article class="card">
+            <h3 class="card__title">База Python</h3>
+            <p class="card__text">Типы данных, условия, циклы, функции, файлы.</p>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Практика</h3>
+            <p class="card__text">Задачи как на реальной работе + разбор решений.</p>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Проекты</h3>
+            <p class="card__text">Мини-проекты и один “витринный” в портфолио.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="format">
+      <div class="container">
+        <h2 class="section__title">Формат</h2>
+        <p class="section__lead">Короткие теории, много практики, обратная связь.</p>
+        <div class="grid grid--2">
+          <article class="card">
+            <h3 class="card__title">Занятия</h3>
+            <p class="card__text">2 раза в неделю + домашки с проверкой.</p>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Поддержка</h3>
+            <p class="card__text">Чат, разбор ошибок, code review по делу.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="container">
+        <h2 class="section__title">Отзывы</h2>
+        <p class="section__lead">Пока заглушки — потом добавим карточки и слайдер (если захочешь).</p>
+        <div class="grid grid--3">
+          <article class="card">
+            <p class="card__text">“Наконец понял основы и перестал бояться кода.”</p>
+            <p class="card__meta">— Андрей</p>
+          </article>
+          <article class="card">
+            <p class="card__text">“Зашло, что всё через практику. Не лекции ради лекций.”</p>
+            <p class="card__meta">— Марина</p>
+          </article>
+          <article class="card">
+            <p class="card__text">“Сделал проект и выложил на GitHub. Это уже результат.”</p>
+            <p class="card__meta">— Олег</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="container">
+        <h2 class="section__title">Цена</h2>
+        <p class="section__lead">Просто и честно.</p>
+        <div class="grid grid--2">
+          <article class="card card--accent">
+            <h3 class="card__title">Стандарт</h3>
+            <p class="card__text">Уроки + домашки + общий чат.</p>
+            <p class="price">₴ 6 900</p>
+            <a class="btn btn--primary" href="#signup">Записаться</a>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Плюс</h3>
+            <p class="card__text">То же самое + личные разборы и приоритетный review.</p>
+            <p class="price">₴ 9 900</p>
+            <a class="btn btn--ghost" href="#signup">Хочу плюс</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="signup">
+      <div class="container">
+        <h2 class="section__title">Записаться</h2>
+        <p class="section__lead">Оставь контакты — отвечу и пришлю детали.</p>
+
+        <form class="form" novalidate>
+          <label class="field">
+            <span class="field__label">Имя</span>
+            <input class="field__input" type="text" name="name" placeholder="Руслан" required />
+          </label>
+
+          <label class="field">
+            <span class="field__label">Телеграм или Email</span>
+            <input class="field__input" type="text" name="contact" placeholder="@username или email" required />
+          </label>
+
+          <button class="btn btn--primary" type="submit">Отправить</button>
+          <p class="form__hint">Нажимая “Отправить”, ты соглашaешься на контакт по заявке.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <p class="footer__copy">© <span id="year"></span> Mi. Авторский курс по Python.</p>
+      <a class="footer__link" href="#top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
