@@ -110,26 +110,88 @@
       </div>
     </section>
 
-    <section class="section" id="reviews">
-      <div class="container">
+<section class="section" id="reviews">
+  <div class="container">
+    <div class="section__head">
+      <div>
         <h2 class="section__title">Отзывы</h2>
-        <p class="section__lead"></p>
-        <div class="grid grid--3">
-          <article class="card">
-            <p class="card__text">“Наконец понял основы и перестал бояться кода.”</p>
-            <p class="card__meta">— Андрей</p>
+        <p class="section__lead">10 отзывов. На экране — 3, листай дальше.</p>
+      </div>
+
+      <div class="slider__controls">
+        <button class="btn btn--ghost slider__btn" type="button" data-slider-prev aria-label="Предыдущие отзывы">←</button>
+        <button class="btn btn--ghost slider__btn" type="button" data-slider-next aria-label="Следующие отзывы">→</button>
+      </div>
+    </div>
+
+    <div class="slider" data-slider>
+      <div class="slider__viewport">
+        <div class="slider__track">
+          <article class="card review">
+            <div class="review__avatar">АП</div>
+            <p class="card__text">“Наконец понял базу. Раньше читал, а теперь пишу.”</p>
+            <p class="card__meta">Андрей П. · новичок</p>
           </article>
-          <article class="card">
-            <p class="card__text">“Зашло, что всё через практику. Не лекции ради лекций.”</p>
-            <p class="card__meta">— Марина</p>
+
+          <article class="card review">
+            <div class="review__avatar">МК</div>
+            <p class="card__text">“Понравилось, что всё через практику. Без лишней теории.”</p>
+            <p class="card__meta">Марина К. · аналитик</p>
           </article>
-          <article class="card">
-            <p class="card__text">“Сделал проект и выложил на GitHub. Это уже результат.”</p>
-            <p class="card__meta">— Олег</p>
+
+          <article class="card review">
+            <div class="review__avatar">ОС</div>
+            <p class="card__text">“Сделал проект и выложил на GitHub. Это реально мотивирует.”</p>
+            <p class="card__meta">Олег С. · смена профессии</p>
+          </article>
+
+          <article class="card review">
+            <div class="review__avatar">ЕГ</div>
+            <p class="card__text">“Разбор ошибок — топ. Теперь понимаю, где обычно косячу.”</p>
+            <p class="card__meta">Елена Г. · студент</p>
+          </article>
+
+          <article class="card review">
+            <div class="review__avatar">ДЛ</div>
+            <p class="card__text">“Код-ревью по делу: коротко, конкретно, без сюсюканья.”</p>
+            <p class="card__meta">Дмитрий Л. · junior</p>
+          </article>
+
+          <article class="card review">
+            <div class="review__avatar">ИН</div>
+            <p class="card__text">“Наконец-то функции и циклы стали понятными, без магии.”</p>
+            <p class="card__meta">Ирина Н. · гуманитарий</p>
+          </article>
+
+          <article class="card review">
+            <div class="review__avatar">СВ</div>
+            <p class="card__text">“Темп норм: не гонка, но и не растягивание на вечность.”</p>
+            <p class="card__meta">Сергей В. · инженер</p>
+          </article>
+
+          <article class="card review">
+            <div class="review__avatar">КР</div>
+            <p class="card__text">“Задачи похожи на реальные. Сразу видно пользу.”</p>
+            <p class="card__meta">Ксения Р. · QA</p>
+          </article>
+
+          <article class="card review">
+            <div class="review__avatar">ПМ</div>
+            <p class="card__text">“Понял, как мыслить кодом. Не просто ‘повторяй за мной’.”</p>
+            <p class="card__meta">Павел М. · новичок</p>
+          </article>
+
+          <article class="card review">
+            <div class="review__avatar">НТ</div>
+            <p class="card__text">“После курса смогла сама допилить проект — вот это важно.”</p>
+            <p class="card__meta">Наталья Т. · фриланс</p>
           </article>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
 
     <section class="section" id="pricing">
       <div class="container">
